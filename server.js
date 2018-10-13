@@ -9,3 +9,4 @@ const Server = HTTP.createServer((req,res) => {
 
 Server.listen(port);
 console.log(`The server is listening to requests on port ${port}`);
+console.log("test");
