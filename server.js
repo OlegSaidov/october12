@@ -7,5 +7,5 @@ const Server = HTTP.createServer((req,res) => {
     res.end("</body></html>");
 });
 
-Server.listen();
+Server.listen(port);
 console.log(`The server is listening to requests on port ${port}`);
